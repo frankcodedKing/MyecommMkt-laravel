@@ -78,11 +78,13 @@
 								<i class="fa fa-laptop fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>Front end fundamentals</h1>
+								<h1>Front end fundamentals <br><h3><strong>N 44999</strong></h3></h1>
 							</div>
 							<div class="service-item-content">
-								<p>HTML,CSS and Javascript for frontend  developer courses.
+								<p>HTML,CSS and Javascript for frontend  developer courses.<br>
+								
 								</p>
+								
 							</div>
 						</div>
 
@@ -94,12 +96,13 @@
 								<i class="fa fa-search fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>Digital Marketing and SEO optimization</h1>
+								<h1>Digital Marketing and SEO optimization<br><h3><strong>N 44999</strong></h3></h1>
 							</div>
 
 							<div class="service-item-content">
 								<p>SEO and digital marketing basics and fundamentals.
 								</p>
+							
 							</div>
 						</div>
 
@@ -110,12 +113,13 @@
 								<i class="fa fa-tablet fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>Flutter</h1>
+								<h1>Flutter<br><h3><strong>N 44999</strong></h3></h1>
 							</div>
 
 							<div class="service-item-content">
 								<p>Create Customised native ios,android applications with effective UI/UX designs.
 								</p>
+								
 							</div>
 						</div>
 					</div>
@@ -129,12 +133,13 @@
 								<i class="fa fa-code fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>Backend basics</h1>
+								<h1>Backend basics<br><h3><strong>N 44999</strong></h3></h1>
 							</div>
 
 							<div class="service-item-content">
 								<p>Java,Python,<br>Frameworks-Laravel,Django CMS-Wordpress,Jumla etc.
 								</p>
+							
 							</div>
 						</div>
 					</div>
@@ -146,12 +151,14 @@
 							<i class="fa fa-pencil-square-o fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>UI/UX</h1>
+								<h1>UI/UX<br><h3><strong>N 44999</strong></h3></h1>
 							</div>
 
 							<div class="service-item-content">
 								<p>Implementing the use of figma in designing effective and responsive mobile and web Frameworks etc.
 								</p>
+								
+								
 							</div>
 						</div>
 					</div>
