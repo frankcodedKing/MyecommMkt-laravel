@@ -11,4 +11,9 @@ class ClassController extends Controller
     {
         return view('livestream');
     }
+
+    public function pay()
+    {
+        return view('payment');
+    }
 }

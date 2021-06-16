@@ -6,7 +6,7 @@ use App\Http\Controllers\VisitorController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ClassController;
-
+use App\Http\Controllers\PaymentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,6 +29,7 @@ Route::get('/signup', function () {
 });
 Route::post('/signup',[UserController::class,'signup'])->name('signup');
 
+Route::get('/payment',[ClassController::class,'payment'])->name('payment');
 
 // login get url and post form input routes
 Route::get('/login',function()
@@ -63,7 +64,8 @@ Route::post('/home',[VisitorController::class,'store']);
 Route::post('/crypto',[ClientController::class,'store']);
 
 
-
+Route::get('/pay',[ClassController::class,'pay'])->name('pay');
+Route::post('/pay', [PaymentController::class,'redirectToGateway'])->name('pay');
 // 0r use this fr shrtcut
 //Route::view('/home','home');
 //Route::view('/crypto','crypto');

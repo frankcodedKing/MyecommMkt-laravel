@@ -109,7 +109,7 @@
 							</div>
 							<div class="service-item-title">
 								<h1>CRYPTOCURRENCY EXCHANGE</h1>
-							</div>
+							</div> 
 
 							<div class="service-item-content">
 								<p>We buy and sell cryptocurrencies such as bitcoin,ethereum etc
@@ -185,8 +185,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div id="team-members" class="owl-carousel owl-theme wow animated fadeInUp"
-							data-wow-duration="1s" data-wow-delay="0.5s">
-							<div class="team-member">
+							data-wow-duration="1s" data-wow-delay="="team-member">
 								<img src="img/team/team-1.jpg" class="img-responsive" alt="team member">
 								<div class="team-member-info text-center">
 									<h4 class="team-member-name">Larry Odogwu</h4>

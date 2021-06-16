@@ -67,7 +67,7 @@
 	<section id="services">
 		<div class="content-box">
 			<div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-				<h1> Services </h1>
+				<h1> Enroll for our Online courses </h1>
 				<div class="content-title-underline"></div>
 			</div>
 			<div class="container wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -78,10 +78,10 @@
 								<i class="fa fa-laptop fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>Web Design and Development</h1>
+								<h1>Front end fundamentals</h1>
 							</div>
 							<div class="service-item-content">
-								<p>We offer Web design & development services.
+								<p>HTML,CSS and Javascript for frontend  developer courses.
 								</p>
 							</div>
 						</div>
@@ -98,7 +98,7 @@
 							</div>
 
 							<div class="service-item-content">
-								<p>SEO and digital marketing services for private and public enterprises.
+								<p>SEO and digital marketing basics and fundamentals.
 								</p>
 							</div>
 						</div>
@@ -110,11 +110,11 @@
 								<i class="fa fa-tablet fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>MOBILE APPS</h1>
+								<h1>Flutter</h1>
 							</div>
 
 							<div class="service-item-content">
-								<p>Creating Customised software applications with effective UI/UX design services.
+								<p>Create Customised native ios,android applications with effective UI/UX designs.
 								</p>
 							</div>
 						</div>
@@ -125,38 +125,36 @@
 					<div class="col-md-4">
 						<div class="service-item">
 							<div class="service-item-icon">
+							
 								<i class="fa fa-code fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>PROGRAMMING LANGUAGES</h1>
+								<h1>Backend basics</h1>
 							</div>
 
 							<div class="service-item-content">
-								<p>We offer courses on Web design,Java,Python,<br>Frameworks-Laravel,Django CMS-Wordpress,Jumla etc.
+								<p>Java,Python,<br>Frameworks-Laravel,Django CMS-Wordpress,Jumla etc.
 								</p>
 							</div>
 						</div>
 					</div>
-				   
+
+					<div class="row">
 					<div class="col-md-4">
 						<div class="service-item">
 							<div class="service-item-icon">
-								<i class="fa fa-btc fa-3x"></i>
+							<i class="fa fa-pencil-square-o fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>CRYPTOCURRENCY EXCHANGE</h1>
+								<h1>UI/UX</h1>
 							</div>
 
 							<div class="service-item-content">
-								<p>We buy and sell cryptocurrencies such as bitcoin,ethereum etc
+								<p>Implementing the use of figma in designing effective and responsive mobile and web Frameworks etc.
 								</p>
 							</div>
 						</div>
 					</div>
-				</div>
-
-
-
 
 			</div>
 
