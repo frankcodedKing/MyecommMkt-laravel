@@ -372,10 +372,10 @@
 				   <h3> CONTACT US </h3>
 				   <form action="" method="POST" >
 				   @csrf
-					   <input name="name" value="" type="text" placeholder="Enter Name" class="form-control"><br>
-					   <input name="email" value="" type="text" placeholder="Email address" class="form-control"><br>
-					   <input name="phone" value="" type="text" placeholder="Phone Number" class="form-control"><br>
-					  <textarea name="message" value="" cols="30" rows="5" class="form-control" placeholder="Send us a message..."></textarea>
+					   <input name="name" value="" type="text" placeholder="Enter Name" required class="form-control"><br>
+					   <input name="email" value="" type="text" placeholder="Email address" required class="form-control"><br>
+					   <input name="phone" value="" type="text" placeholder="Phone Number" required class="form-control"><br>
+					  <textarea name="message" value="" cols="30" rows="5" class="form-control" required placeholder="Send us a message..."></textarea>
 					  <!-- <button id="send-btn" type="submit" class="btn btn-lg btn-general btn-white"> -->
 					  <div id="send-btn">
 					   <button type="submit" name="submit" class="btn btn-lg btn-general btn-blue " role="button">Send</button>

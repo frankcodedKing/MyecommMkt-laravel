@@ -13,7 +13,7 @@
     <title>NANOCODES</title>
 
     <!--FAV ICON-->
-    <link rel="shortcut icon" href="img/FAVICON.jpg">
+    <link rel="shortcut icon" href="img/FAVICON.png">
 
     <!--GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
@@ -68,10 +68,10 @@
 					<div class="collapse navbar-collapse" id="menu">
 						<ul class="nav navbar-nav">
 							<li><a  href="/home">Home</a></li>
-							<li><a  href="#services">Services</a></li>
-							<li><a  href="#about">About</a></li>
+							<li><a  href="home#services">Services</a></li>
+							<li><a  href="home#about">About</a></li>
 							<!-- <li><a href="#team">Team</a></li> -->
-							<li><a  href="#contact">Contact US</a></li>
+							<li><a  href="home#contact">Contact US</a></li>
 							<li><a  href="/crypto">Buy/Sell Cryptocurrency</a></li>
                             @if(Session::has('user'))
 							<li><a  href="/logout">Logout</a></li>

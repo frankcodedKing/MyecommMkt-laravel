@@ -23,7 +23,7 @@
 							<li><a  href="/home">Home</a></li>
 							<li><a  href="#services">Services</a></li>
 							<li><a  href="#about">About</a></li>
-							<li><a href="#team">Team</a></li> 
+							<li><a href="#team">Team</a></li>
 							<li><a  href="#contact">Contact US</a></li>
 							<li><a  href="/crypto">Buy/Sell Cryptocurrency</a></li>
 							<li><a  href="/livestream">Log Out</a></li>
@@ -36,7 +36,7 @@
 			</div>
 
 		</nav>
-	  
+
 
 	</header> -->
 	<!-- HOME -->
@@ -78,13 +78,13 @@
 								<i class="fa fa-laptop fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>Front end fundamentals <br><h3><strong>N 44999</strong></h3></h1>
+								<h1>Front end fundamentals <br><h3><strong>&#x20A6 100,000</strong></h3></h1>
 							</div>
 							<div class="service-item-content">
 								<p>HTML,CSS and Javascript for frontend  developer courses.<br>
-								
+
 								</p>
-								
+
 							</div>
 						</div>
 
@@ -96,13 +96,13 @@
 								<i class="fa fa-search fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>Digital Marketing and SEO optimization<br><h3><strong>N 44999</strong></h3></h1>
+								<h1>Digital Marketing and SEO optimization<br><h3><strong>&#x20A6 50,000</strong></h3></h1>
 							</div>
 
 							<div class="service-item-content">
-								<p>SEO and digital marketing basics and fundamentals.
+								<p>SEO and digital marketing basics and fundamentals to advanced.
 								</p>
-							
+
 							</div>
 						</div>
 
@@ -113,13 +113,13 @@
 								<i class="fa fa-tablet fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>Flutter<br><h3><strong>N 44999</strong></h3></h1>
+								<h1>Flutter<br><h3><strong>&#x20A6 100,000</strong></h3></h1>
 							</div>
 
 							<div class="service-item-content">
 								<p>Create Customised native ios,android applications with effective UI/UX designs.
 								</p>
-								
+
 							</div>
 						</div>
 					</div>
@@ -129,44 +129,66 @@
 					<div class="col-md-4">
 						<div class="service-item">
 							<div class="service-item-icon">
-							
+
 								<i class="fa fa-code fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>Backend basics<br><h3><strong>N 44999</strong></h3></h1>
+								<h1>web Backend<br><h3><strong>&#x20A6 100,000</strong></h3></h1>
 							</div>
 
 							<div class="service-item-content">
-								<p>Java,Python,<br>Frameworks-Laravel,Django CMS-Wordpress,Jumla etc.
+								<p>PHP,Python,SQL<br>Frame works LIKE -Laravel,Django CMS-Wordpress,Jumla etc.
 								</p>
-							
+
 							</div>
 						</div>
 					</div>
 
-					<div class="row">
+
 					<div class="col-md-4">
 						<div class="service-item">
 							<div class="service-item-icon">
 							<i class="fa fa-pencil-square-o fa-3x"></i>
 							</div>
 							<div class="service-item-title">
-								<h1>UI/UX<br><h3><strong>N 44999</strong></h3></h1>
+								<h1>UI/UX<br><h3><strong> &#x20A6 100,000 </strong></h3></h1>
 							</div>
 
 							<div class="service-item-content">
-								<p>Implementing the use of figma in designing effective and responsive mobile and web Frameworks etc.
+								<p>Implementing the use of figma and QUEST A.I in designing effective and responsive mobile and web Frameworks etc.
 								</p>
-								
-								
+
+
 							</div>
 						</div>
 					</div>
 
-			</div>
+                    <div class="col-md-4">
+						<div class="service-item">
+							<div class="service-item-icon">
+
+								<i class="fa fa-laptop fa-3x"></i>
+							</div>
+							<div class="service-item-title">
+								<h1>Computer Languages<br><h3><strong>&#x20A6 100,000</strong></h3></h1>
+							</div>
+
+							<div class="service-item-content">
+								<p>JAVA, Python, DART, C#,  C+ etc<br>.
+								</p>
+
+							</div>
+						</div>
+					</div>
+
+
+
 
 
 		</div>
+        <div class="row well">
+            <h4>mail <a href="mailto:info@nanocodes.com.ng">info@nanocodes.com.ng</a> to enroll for online class and be assigned a class</h4>
+        </div>
 	</section>
 
 		<div id="footer-bottom" style="background-color:black;">
@@ -177,7 +199,7 @@
 							   <p>Copyrights &copy; 2021 All Rights Reserved by Nanocodes programming</p>
 							 </div>
 						</div>
-						
+
 						<div class="col-md-6">
 							<div id="footer-menu">
 								<ul>
@@ -188,10 +210,10 @@
 								<li><a  href="#contact">Contact US</a>/</li>
 								<li><a  href="/crypto">Buy/Sell Cryptocurrency</a></li>
 								</ul>
-						 
+
 							</div>
 					</div>
-	
+
 				</div>
 				</div>
 				</div>
@@ -202,7 +224,7 @@
 
 		<!--GOOGLEMAP-->
 
-   
+
 	<!--Jquery lib file-->
 	<script src="js/jquery.js"></script>
 

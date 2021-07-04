@@ -19,9 +19,7 @@ use App\Http\Controllers\PaymentController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 //signup get url and post form input routes
 Route::get('/signup', function () {
@@ -55,6 +53,7 @@ Route::get('/livestream',[ClassController::class,'livestream'])->name('livestrea
 
 
 Route::get('/home',[HomeController::class,'index'])->name('home.index');
+Route::get('/',[HomeController::class,'index'])->name('home.index');
 
 
 Route::get('/crypto',[HomeController::class, 'crypto'])->name('crypto.crypto');
