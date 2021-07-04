@@ -15,11 +15,11 @@
 
             <div class="container">
                 <div class="row">
-                 
+
                     <div class="col-md-12 wow animated zoomIn" data-wow-duration="1s" data-wow-delay="0.5s">
                                 <div class=" pricing-box text-center">
-                        
-                        
+
+
                         <!-- F0RM F0R paystack payment  -->
 
                         <form method="POST" action="{{ route('pay') }}" accept-charset="UTF-8" class="form-horizontal" role="form">
@@ -52,14 +52,14 @@
 </form>
 
 
-                      
+
 
                     </div>
 
                 </div>
 
 
-                
+
             </div>
 
         </div>
@@ -70,14 +70,14 @@
 	<!--CONTACT -->
 
 	<footer>
-		<div id="contact">   
+		<div id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
 					<div id="left">
 				   <h3> NANOCODES </h3>
 
-				   <p> We believe in <strong>Simple</strong>, <strong>Clean</strong> and 
+				   <p> We believe in <strong>Simple</strong>, <strong>Clean</strong> and
 					<strong>Modern</strong> design standards with a responsive approach.</p>
 					<div id="address-info">
 				   <address>
@@ -86,13 +86,13 @@
 
 				   </address>
 				   <div id="phone-email">
-					   <p><strong> Phone: </strong> (+234)8124946594 <br>                       
+					   <p><strong> Phone: </strong> (+234)8124946594 <br>
 						<strong> Email: </strong> info@nanocodes.com.ng</p>
 
 				   </div>
-			
+
 					</div>
-				   
+
 							<ul class="social-icon-list">
 									<li><a href="#" class="social-icon icon-white"><i class="fa fa-facebook"></i></a>
 									</li>
@@ -103,9 +103,9 @@
 									<li><a href="#" class="social-icon icon-white"><i
 													class="fa fa-youtube-play"></i></a></li>
 								</ul>
-			
+
 				</div>
-				
+
 
 
 			</div>
@@ -125,33 +125,33 @@
 					   <button type="submit" name="submit" class="btn btn-lg btn-general btn-blue " role="button">Send</button>
 
 				   </div>
-					   
+
 				   </form>
-				 
- 
+
+
 			 </div>
 
 		</div>
-		
+
 		</div>
-	</div> 
+	</div>
 		</div>
 
 		<!-- googleMap -->
-		<div id="map">   
+		<div id="map">
 			<div class="container">
 				<div class="row">
 						<div class="col-md-12">
 							<div id="left">
 						   <h3>Locate Us</h3>
-						   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15845.332127796608!2d7.387118469775384!3d6.850623600000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044e94d0e2cf20d%3A0x9eebd527c8e73fb3!2sNANOCODES%20PROGRAMING!5e0!3m2!1sen!2sng!4v1618642038242!5m2!1sen!2sng" width="1135" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+						   <iframe class="mapcontrol" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15845.332127796608!2d7.387118469775384!3d6.850623600000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044e94d0e2cf20d%3A0x9eebd527c8e73fb3!2sNANOCODES%20PROGRAMING!5e0!3m2!1sen!2sng!4v1618642038242!5m2!1sen!2sng" width="1135" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 						</div>
 					</div>
-	  
+
 				</div>
 
-				
+
 			</div>
 		</div>
 
@@ -164,7 +164,7 @@
 							   <p>Copyrights &copy; 2021 All Rights Reserved by Nanocodes programming</p>
 							 </div>
 						</div>
-						
+
 						<div class="col-md-6">
 							<div id="footer-menu">
 								<ul>
@@ -175,10 +175,10 @@
 								<li><a  href="#contact">Contact US</a>/</li>
 								<li><a  href="/crypto">Buy/Sell Cryptocurrency</a></li>
 								</ul>
-						 
+
 							</div>
 					</div>
-	
+
 				</div>
 				</div>
 				</div>
@@ -189,7 +189,7 @@
 
 		<!--GOOGLEMAP-->
 
-   
+
 	<!--Jquery lib file-->
 	<script src="js/jquery.js"></script>
 

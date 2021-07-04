@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <!-- seo meta tags -->
-    <meta name="description" content="Building modern responsive website with html5, css3, jQuery & bootstrap framework">
-    <meta name="keywords" content="HTML5, CSS3, jQuery, Bootstrap, Web Design, Web Development, Responsive website, Modern website">
+    <meta name="description" content="A Programming company which offers you professional website design and development, mobile App development, Ethical Hacking, programming classes for different Computer languages and frameworks. We also offer digital marketing services and tutorials for interested students, we also buy and sell cryptocurrencies">
+    <meta name="keywords" content="HTML5, CSS3, jQuery, Bootstrap, Web Design, Web Development, Responsive website, Modern website, mobile App Development, App Development, Software Development, Nanocodes, Nanocodes Programming">
 
     <!--TITLE TAGS-->
     <title>NANOCODES</title>
 
     <!--FAV ICON-->
-    <link rel="shortcut icon" href="img/FAVICON.jpg">
+    <link rel="shortcut icon" href="img/FAVICON.png">
 
     <!--GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
@@ -36,6 +36,16 @@
 
     <!--css style-->
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        @media only screen and (max-width: 600px) {
+    .mapcontrol
+     {
+         max-width: 400px;
+
+      }
+}
+
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
@@ -58,10 +68,10 @@
 					<div class="collapse navbar-collapse" id="menu">
 						<ul class="nav navbar-nav">
 							<li><a  href="/home">Home</a></li>
-							<li><a  href="#services">Services</a></li>
-							<li><a  href="#about">About</a></li>
+							<li><a  href="home#services">Services</a></li>
+							<li><a  href="home#about">About</a></li>
 							<!-- <li><a href="#team">Team</a></li> -->
-							<li><a  href="#contact">Contact US</a></li>
+							<li><a  href="home#contact">Contact US</a></li>
 							<li><a  href="/crypto">Buy/Sell Cryptocurrency</a></li>
                             @if(Session::has('user'))
 							<li><a  href="/logout">Logout</a></li>
@@ -77,7 +87,7 @@
 			</div>
 
 		</nav>
-	  
+
 
 	</header>
     @yield('content')
