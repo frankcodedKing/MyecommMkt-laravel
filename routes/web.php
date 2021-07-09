@@ -18,34 +18,6 @@ use App\Http\Controllers\PaymentController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-
-
-//signup get url and post form input routes
-Route::get('/signup', function () {
-    return view('signup');
-});
-Route::post('/signup',[UserController::class,'signup'])->name('signup');
-
-Route::get('/payment',[ClassController::class,'payment'])->name('payment');
-
-// login get url and post form input routes
-Route::get('/login',function()
-{
-    return view('login');
-});
-
-Route::get('/logout',function()
-{
-    Session::forget('user');
-    return redirect('login');
-});
-
-Route::post('/login',[UserController::class,'login'])->name('login');
-
-Route::get('/livestream',[ClassController::class,'livestream'])->name('livestream');
-
-
 // Route::get('/login',[UserController::class,'login'])->name('login');
 
 //class for logged in user
@@ -68,3 +40,11 @@ Route::post('/pay', [PaymentController::class,'redirectToGateway'])->name('pay')
 // 0r use this fr shrtcut
 //Route::view('/home','home');
 //Route::view('/crypto','crypto');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

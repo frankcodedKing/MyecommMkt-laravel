@@ -16,26 +16,26 @@
     <link rel="shortcut icon" href="img/FAVICON.png">
 
     <!--GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="{{asset('csshttps://fonts.googleapis.com?family=Roboto+Condensed:300,300i,400,400i,700,700i')}}" rel="stylesheet">
 
     <!--FONT AWESOME-->
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href=" {{asset('css/font-awesome/css/font-awesome.min.css')}}">
 
     <!--bootstrap FOR CSS-->
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap/bootstrap.min.cs')}}s">
 
     <!--CSS Animation lib-->
-    <link rel="stylesheet" href="css/animate/animate.css">
+    <link rel="stylesheet" href="{{asset('css/animate/animate.css')}}">
 
     <!--CSS MAGNIFY POPUP-->
-    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="{{asset('css/magnific-popup/magnific-popup.css')}}">
 
     <!-- OWL CAROUSEL CSS-->
-    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{{asset('css/owl-carousel/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/owl-carousel/owl.theme.default.min.css')}}">
 
     <!--css style-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <style>
         @media only screen and (max-width: 600px) {
     .mapcontrol
@@ -65,22 +65,24 @@
 						</a>
 
 					</div>
-					<div class="collapse navbar-collapse" id="menu">
-						<ul class="nav navbar-nav">
-							<li><a  href="/home">Home</a></li>
-							<li><a  href="home#services">Services</a></li>
-							<li><a  href="home#about">About</a></li>
-							<!-- <li><a href="#team">Team</a></li> -->
-							<li><a  href="home#contact">Contact US</a></li>
-							<li><a  href="/crypto">Buy/Sell Cryptocurrency</a></li>
-                            @if(Session::has('user'))
-							<li><a  href="/logout">Logout</a></li>
-                            @else
-                            <li><a  href="/login">Join Online Class</a></li>
-                            @endif
-						</ul>
+					<div class="row">
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="nav navbar-nav">
+                                <li><a  href="/home">Home</a></li>
+                                <li><a  href="home#services">Services</a></li>
+                                <li><a  href="home#about">About</a></li>
+                                <!-- <li><a href="#team">Team</a></li> -->
+                                <li><a  href="home#contact">Contact US</a></li>
+                                <li><a  href="/crypto">Buy/Sell Cryptocurrency</a></li>
+                                @if(Session::has('user'))
+                                <li><a  href="/logout">Logout</a></li>
+                                @else
+                                <li><a  href="/login">Join Online Class</a></li>
+                                @endif
+                            </ul>
 
-					</div>
+                        </div>
+                    </div>
 
 				</div>
 
@@ -90,6 +92,7 @@
 
 
 	</header>
+
     @yield('content')
 </body>
 
