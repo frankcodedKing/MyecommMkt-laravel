@@ -1,6 +1,26 @@
 @extends('layout')
 
 @section('content')
+<section id="home">
+		<div id="home-cover" class="bg-parallax  animated fadeIn">
+			<div id="home-content-box">
+				<div id="home-inner-content" class="text-center">
+					<div id="home-heading" class="animated zoomIn">
+						<h1>NANOCODES<br>PROGRAMMING</h1>
+
+					</div>
+					<div id="home-btn" class="animated zoomIn">
+						<a class="btn btn-lg btn-general btn-white" href="/login" role="button">Learn to code</a>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
 
 	<!--HEADER-->
 	<!-- <nav class="navbar navbar-fixed-top" role="navigation">
@@ -46,7 +66,7 @@
 			<div id="home-content-box">
 				<div id="home-inner-content" class="text-center">
 					<div id="home-heading" class="animated zoomIn">
-						<h1>Welcome <i>{{Session::get('user')['name']}}</i></h1>
+						<h1>Welcome <i>{{ Auth::user()->name }}</i></h1>
 
 					</div>
 					<div id="home-btn" class="animated zoomIn">
